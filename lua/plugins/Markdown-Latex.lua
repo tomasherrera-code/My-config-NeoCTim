@@ -5,6 +5,13 @@ return {
     "nvim-mini/mini.icons", -- Proveedor de íconos oficial recomendado
   },
   ft = { "markdown" },
+
+  -- Agregamos la inicialización del corrector ortográfico aquí
+  init = function()
+    vim.opt.spelllang = { "en", "es" }
+    vim.opt.spell = true
+  end,
+
   opts = {
     -- Habilita el soporte para bloques de ecuaciones LaTeX
     latex = {
