@@ -5,7 +5,11 @@ return {
     "nvim-mini/mini.icons", -- Proveedor de íconos oficial recomendado
   },
   ft = { "markdown" },
-
+  --  {
+  --    "techwizrd/render-latex.nvim",
+  --    ft = "markdown",
+  --    opts = {},
+  --  },
   -- Agregamos la inicialización del corrector ortográfico aquí
   init = function()
     vim.opt.spelllang = { "en", "es" }
