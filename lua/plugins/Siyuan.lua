@@ -7,7 +7,7 @@ return {
 
     -- ¡IMPORTANTE! Cambia esto por el nombre EXACTO de tu libreta en SiYuan.
     -- El código original tenía "生活总结" (Resumen de vida en chino).
-    notebook = "Mi cuaderno",
+    notebook = "NoteBook",
   },
   keys = {
     { "<leader>ys", "<cmd>Siyuan search<cr>", desc = "Buscar en SiYuan" },
